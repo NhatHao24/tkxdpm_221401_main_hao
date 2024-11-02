@@ -23,13 +23,13 @@ public class AddUseCaseControl {
             int number2 = Integer.parseInt(strNumber2);
 
             // Send data to the entity
-            addEntity.add(number1, number2);
+            // addEntity.add(number1, number2);
 
             // Provide feedback
-            addUIConsoleOutput.showMessage("Addition successful: " + (number1 + number2));
+            // addUIConsoleOutput.showMessage("Addition successful: " + (number1 + number2));
         } else {
             // Handle invalid input
-            addUIConsoleOutput.showMessage("Invalid input. Please enter valid numbers.");
+            // addUIConsoleOutput.showMessage("Invalid input. Please enter valid numbers.");
         }
     }
 
